@@ -41,6 +41,8 @@
     pkgs.git
     pkgs.llvmPackages_16.libcxxClang
     pkgs.tmux
+    pkgs.fzf
+    pkgs.lua-language-server
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
