@@ -39,17 +39,8 @@
     pkgs.texlab
     pkgs.sqlfluff
     pkgs.git
-    pkgs.boost
-    pkgs.openssl
-    pkgs.openssl.dev
-    pkgs.curl
-    pkgs.curl.dev
-    pkgs.zlib
-    pkgs.iconv
-    pkgs.krb5
-    pkgs.gtest
-    pkgs.gbenchmark
     pkgs.llvmPackages_16.libcxxClang
+    pkgs.tmux
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
